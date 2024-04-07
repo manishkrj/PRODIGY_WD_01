@@ -9,7 +9,8 @@ body{
     font-family: "Bree Serif", serif;
 }
 nav{
-    background-color: #080708;
+    /* background-color: #080708; */
+    background-color: #000267;
     /* border: solid black 1px; */
     padding: 15px;
     display: flex;
@@ -102,6 +103,7 @@ li:hover{
         flex-direction: row;
     }
     nav{
+        background-image: linear-gradient(#000267 70%,#2f32fe);
         display: flex;
         flex: 0 0 25%;
         flex-direction: column;

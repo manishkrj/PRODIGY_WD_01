@@ -11,7 +11,7 @@ if(window.innerWidth<=900 && window.scrollY > 50){
         return e.style.color='#080708';
     });
 }else{
-    nav.style.backgroundColor='#080708';
+    nav.style.backgroundColor='#000267';
     anch.forEach((e)=>{
         return e.style.color='#E6E8E6';
     });
@@ -118,7 +118,7 @@ var open=true;
 window.addEventListener('resize',function(){
     document.querySelector('.nav-hided').style.width='0';
     if(window.innerWidth>900){
-        document.querySelector('nav').style.backgroundColor='#080708';
+        document.querySelector('nav').style.backgroundColor='#000267';
         document.querySelectorAll('a').forEach((e)=>{
             return e.style.color='#FFFFFF';
         })
